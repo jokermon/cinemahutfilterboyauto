@@ -46,13 +46,10 @@ class Translation(object):
 @cinehut
 """
     
-   ABOUT_TEXT = """<b>○ ᴍʏ ɴᴀᴍᴇ</b> :  THALAPATHY
+     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>○ ʟᴀɴɢᴜᴀɢᴇ</b> : ᴘʏᴛʜᴏɴ
-
-<b>○ ғʀᴀᴍᴇᴡᴏʀᴋ</b> : ᴘʏʀᴏɢʀᴀᴍ
-
-<b>○ ᴄʀᴇᴀᴛᴏʀ</b> : <b><i><a href="https://t.me/cinehut">joker</a></i></b>
-
-<b>○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ</b> : 🔐
+<b>➥ Creator</b> : <b><i><a href="https://t.me/cinehut">jokersir</a></i></b>
+<b>➥ Language</b> : <code>Python3</code>
+<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+<b>➥ Source Code</b> : <i><a href="https://t.me/onnpoderka/2">Click Me</a></i>
 """
