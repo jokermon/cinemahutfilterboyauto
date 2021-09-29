@@ -1640,7 +1640,7 @@ async def callback_data(bot, update: CallbackQuery):
     if query_data == "start":
         buttons = [[
             InlineKeyboardButton('⚠️ JOIN', url='https://t.me/joinchat/5UxSr0XIphVhYjc9'),
-            InlineKeyboardButton('🕵‍♂ CREATOR', url ='https://t.me/Wafikh')
+            InlineKeyboardButton('🕵‍♂ CREATOR', url ='https://t.me/Angelamego')
         ],[
             InlineKeyboardButton('💡 HELP', callback_data="help"),
             InlineKeyboardButton('🔐 CLOSE', callback_data="close")
