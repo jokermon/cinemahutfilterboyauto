@@ -47,7 +47,10 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = f"{file_name} \n 📥 Channels⬇️⛓ https://t.me/joinchat/bzOS9Mwrvws3N2Y1 ⛓
+📥Group:
+👥 https://t.me/cinehut   
+ 🦅Join Fastest Growing Telegram Channel" ,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
