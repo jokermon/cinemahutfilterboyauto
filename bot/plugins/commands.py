@@ -47,7 +47,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n 🔊 @cinehut" ,
+                caption = f"{file_name} \n @cinehut",
                 parse_mode="html"
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
