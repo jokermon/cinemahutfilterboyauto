@@ -48,7 +48,7 @@ async def start(bot, update):
                 chat_id=update.chat.id,
                 document = file_id,
                 caption = caption,
-                parse_mode="html"
+                parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -117,7 +117,7 @@ async def start(bot, update):
     
     await bot.send_photo(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/2b1f0627abc51470cfb12.jpg",
+        photo="https://telegra.ph/file/0a8a85ea0753bcafbde8b.jpg",
         caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
@@ -139,7 +139,7 @@ async def help(bot, update):
     
     await bot.send_photo(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/2b1f0627abc51470cfb12.jpg",
+        photo="https://telegra.ph/file/0a8a85ea0753bcafbde8b.jpg",
         caption=Translation.HELP_TEXT,
         reply_markup=reply_markup,
         parse_mode="html",
