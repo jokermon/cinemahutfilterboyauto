@@ -10,7 +10,7 @@ from bot.database import Database # pylint: disable=import-error
 import random
 
 PHOTO = [
-"https://telegra.ph/file/8bcc52ff23337a52c441b.jpg",
+"https://telegra.ph/file/35557b5ade1832879acd3.jpg",
 "https://telegra.ph/file/d1fe5fc8a1851338c62e3.jpg",
 "https://telegra.ph/file/0a8a85ea0753bcafbde8b.jpg",
 "https://telegra.ph/file/ad933366db94252fd21bf.jpg",
