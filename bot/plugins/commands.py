@@ -12,6 +12,7 @@ import random
 PHOTO = [
 "https://telegra.ph/file/35557b5ade1832879acd3.jpg",
 "https://telegra.ph/file/d1fe5fc8a1851338c62e3.jpg",
+"https://telegra.ph/file/2b1f0627abc51470cfb12.jpg",
 "https://telegra.ph/file/0a8a85ea0753bcafbde8b.jpg",
 "https://telegra.ph/file/ad933366db94252fd21bf.jpg",
 "https://telegra.ph/file/20e6e65a14eb17da768e8.jpg",
